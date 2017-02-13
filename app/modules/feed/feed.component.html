@@ -1,0 +1,29 @@
+<div class="container feed-div">
+    <div *ngIf='feeds && feeds.length'>
+        <div *ngFor='let feed of feeds; trackBy feed?.id'>
+            <div class="feed-list">
+                <div *ngIf='feed.media.m' class="crop">
+                    <img [src]="feed.media.m" alt="No Image" />
+                </div>
+                <h2>{{ feed.title }}</h2>
+                <p>{{ feed.description | descFilter }}</p>
+                <p>Published By : {{ feed.author | authorFilter }}</p>
+                <p>Published On : {{ feed.published | publishedFilter}}</p>
+                <p>Tags : {{ feed.tags}}</p>
+                <p>Visit : <a href="{{ feed.link}}" target="_blank">For more Info</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container feed-div">
+    <div *ngIf='jobs && jobs.length'>
+        <div *ngFor='let job of jobs; trackBy job?.id'>
+            <div class="feed-list">
+                <h3>{{ job.title }} ({{job.domain}})</h3>
+                <p>Posted : {{ job.time_ago}}</p>
+                <p>To Apply : <a href="{{ job.url}}" target="_blank">Click Here</a></p>
+            </div>
+        </div>
+    </div>
+</div>

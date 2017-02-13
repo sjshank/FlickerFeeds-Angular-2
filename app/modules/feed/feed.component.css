@@ -1,0 +1,70 @@
+h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.feed-list {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* background-color: #f9f9f9; */
+    border-bottom: 1px solid #795548;
+    float: left !important;
+    margin-left: 0px;
+}
+
+.feed-list .crop {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    background: white;
+    text-align: center;
+    border: 1px solid #ccccd2;
+    border-radius: 5px;
+}
+
+.feed-list .crop img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.feed-list h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #423F4C;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.feed-list p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description {
+    overflow: hidden;
+}
+
+.description p {
+    float: left;
+    margin-right: 5px;
+}
+
+.details {
+    margin-right: 10px;
+}
+.feed-div {
+    margin-left: -15px;
+    background-color: #f5f5f5;
+    width: 100%;
+}

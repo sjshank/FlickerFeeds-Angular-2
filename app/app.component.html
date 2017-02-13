@@ -1,0 +1,33 @@
+<div class="default">
+  <div class="body-cover"></div>
+  <div class="wrapper">
+    <header>
+    <div id="header" class="row">
+        <div class="col-lg-8 col-md-4 col-sm-4">
+                <div class="col-lg-2 col-md-2 col-sm-2 noPadding">
+                <a [routerLinkActive]="['selected']" [routerLink]="['/feeds']" class="home-link">
+                    <div class="logo-inner"></div>
+                    <img class="logo" src="app/assets/images/ff_icon.jpg" alt="Logo" />
+                </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 app-name noPadding">
+                    <h2 style="display: inline-block;">{{appName}}</h2>
+                </div>
+            </div>
+        <div class="header-text ">
+            <div class="float-right">
+                <span class="header-nav">
+            <a [routerLinkActive]="['selected']" [routerLink]="['/feeds']">Feeds</a>
+              |
+            <a [routerLinkActive]="['selected']" [routerLink]="['/queries']">Queries</a>
+              |
+            <a [routerLinkActive]="['selected']" [routerLink]="['/jobs']">Jobs</a>
+          </span>
+            </div>
+        </div>
+    </div>
+</header>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
+</div>

@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.body-cover {
+  width: 100%;
+  z-index: 0;
+  position: fixed;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 85%;
+  min-height: 80px;
+  margin: 0 auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 15px;
+  height: 100%;
+  line-height: 1.3;
+}
+
+.noPadding {
+    padding: 0px;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+#header {
+    color: #fff;
+    padding: 6px 0;
+    line-height: 18px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background: #795548;
+    border-bottom: 2px solid #795548;
+}
+
+#header a,
+#header a h3 {
+    display: inline;
+}
+
+#header a h3 {
+    color: #EFEBE9;
+}
+
+.logo-inner {
+    width: 32px;
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    z-index: -1;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 3px 6px 0;
+    border-radius: 25px;
+}
+
+h1 {
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.name {
+    margin-right: 30px;
+    margin-bottom: 2px;
+}
+
+.header-text {
+    position: absolute;
+    width: inherit;
+    height: 20px;
+    left: 10px;
+    top: 41px;
+    z-index: -1;
+}
+
+.left {
+    position: absolute;
+    left: 60px;
+    font-size: 16px;
+}
+
+.float-right {
+    float: right;
+}
+
+.header-nav {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+.header-nav a {
+    color: #EFEBE9;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 5px;
+    letter-spacing: 1.8px;
+}
+
+.header-nav a:hover {
+    color: #EFEBE9;
+}
+
+.header-nav .active {
+    color: #EFEBE9;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    height: 100%;
+}
+
+.info img {
+    opacity: 0.8;
+    width: 25px;
+    margin-top: 21.5px;
+    display: block;
+}
+
+.info img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.app-name {
+    color: #EFEBE9;
+    padding-top: 24px;
+    margin-left: -20px;
+}
+.selected {
+    color: #3D0 !important;
+}
+
+
+
